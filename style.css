@@ -1,0 +1,1289 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,300&family=Cairo&display=swap');
+*{
+    margin: 0;padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    background-color: rgba(189, 183, 183, 0.363);
+    height: 810vh;
+    width: 100vw;
+}
+header{
+    background-color: rgba(20, 20, 212, 0.384);
+    width: 100vw;
+}
+li{
+    list-style: none;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.navbar{
+    min-height: 110px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+    position: absolute;
+    top: 45px;
+    left: 850px;
+}
+.nav-branding{
+    color: whitesmoke;
+    font-size: 2rem;
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 25px;
+    left: 119px;
+}
+.nav-link{
+    transition: 0.7s ease;
+}
+.nav-link:hover{
+    color: black;
+}
+.logo{
+    height: 75px;
+    width: 75px;
+    border-radius: 10px;
+    position: absolute;
+    top: 19px;
+    left: 19px;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: aliceblue;
+    position: relative;
+    top: 3px;
+    left: 88vw;
+}
+.p0{
+    color: rgba(0, 0, 0, 0.616);
+    font-family: 'Cairo', sans-serif;
+    font-size: 130%;
+    position: absolute;
+    top: 27vh;
+    left: 9vw;
+}
+.p1{
+    height: 25vh;
+    width: 35vw;
+    font-family: 'Cairo', sans-serif;
+    font-size: 110%;
+    position: absolute;
+    top: 53vh;
+    left: 9vw;
+}
+
+#slideshow {
+    overflow: hidden;
+    border: 2px solid rgba(255, 0, 0, 0.322);
+    border-radius: 5px;
+    height: 400px;
+    width: 420px;
+    margin: 0 auto;
+    position: absolute;
+    top: 30vh;
+    right: 7vw;
+  }
+.slide {
+    float: left;
+    background-color: aliceblue;
+    height: 400px;
+    width: 420px;
+}
+.slide-wrapper {
+    width: calc(420px * 4);
+    animation: slide 10s ease infinite;
+  }
+ @keyframes slide {
+    20% {
+      margin-left: 0px;
+    }
+   
+    40% {
+      margin-left: calc(-420px * 1);
+    }
+   
+    60% {
+      margin-left: calc(-420px * 2);
+    }
+   
+    80% {
+      margin-left: calc(-420px * 3);
+    }
+  }
+
+.photo2{
+    height: 65vh;
+    width: 40vw;
+} 
+
+
+footer{
+    background-color: rgba(20, 20, 212, 0.384);
+    height: 10vh;
+    width: 100vw;
+    position: absolute;
+    top: 810vh;
+}
+.G1{
+    font-family: 'Cairo', sans-serif;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 3vh;
+    left: 25vw;
+}
+.G2{
+    font-family: 'Cairo', sans-serif;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 3vh;
+    left: 78vw;
+}
+.profile2{
+    color: azure;
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 9vh;
+    left: 9vw;
+}
+.profile2:hover{
+    color: black;
+    font-weight: bolder;   
+}
+.photo3{
+    display: flex;
+    border-radius: 10px;
+    height: 10vh;
+    width: 5vw;
+    position: absolute;
+    top: 7vh;
+    left: 2vw;
+}
+.line1{
+    border: 2px solid white;
+    height: 14vh;
+    width: 0vw;
+    position: relative;
+    top: 7vh;
+    left: 28vw;
+}
+.p2{
+    color: azure;
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 5vh;
+    left: 30vw;
+}
+.p3{
+    color: azure;
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 8vh;
+    left: 30vw;
+}
+.p4{
+    color: azure;
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 11vh;
+    left: 30vw;
+}
+.p5{
+    color: azure;
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 14vh;
+    left: 30vw;
+}
+.p6{
+    color: azure;
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 18vh;
+    left: 30vw;
+}
+.p7{
+    color: azure;
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 18vh;
+    left: 38vw;
+}
+.line2{
+    border: 2px solid white;
+    height: 14vh;
+    width: 0vw;
+    position: relative;
+    top: -8vh;
+    left: 60vw;
+}
+.p8{
+    color: azure;
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 9vh;
+    left: 63vw;
+}
+.p9{
+    color: azure;
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 12vh;
+    left: 63vw;
+}
+.photo4{
+    display: flex;
+    border-radius: 10px;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 3vh;
+    left: 86vw;
+}
+.photo4:hover{
+    color: black;
+    font-weight: bold;
+}
+.box1{
+    background-color: rgba(63, 63, 153, 0.151);
+    height: 60vh;
+    width: 22vw;
+    position: absolute;
+    top: 120vh;
+    left: 9vw;
+    border-radius: 10px;
+}   
+.box2{
+    background-color: rgba(63, 63, 153, 0.151);
+    height: 60vh;
+    width: 22vw;
+    position: absolute;
+    top: 120vh;
+    left: 40vw;
+    border-radius: 10px;
+}   
+.box3{
+    background-color: rgba(63, 63, 153, 0.151);
+    height: 60vh;
+    width: 22vw;
+    position: absolute;
+    top: 120vh;
+    left: 71vw;
+    border-radius: 10px;
+}       
+.photo5{
+    display: flex;
+    border-radius: 10px;
+    height: 160px;
+    width: 265px;
+    position: absolute;
+    top: 2.5vh;
+    left: 1.25vw;
+}
+.photo6{
+    display: flex;
+    border-radius: 10px;
+    height: 160px;
+    width: 265px;
+    position: absolute;
+    top: 2.5vh;
+    left: 1.25vw;
+}
+.photo7{
+    display: flex;
+    border-radius: 10px;
+    height: 160px;
+    width: 265px;
+    position: absolute;
+    top: 2.5vh;
+    left: 1.25vw;
+}
+.boxA1{
+    color: azure;
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 30vh;
+    left: 3vw;
+}
+.boxA2{
+    color: rgb(12, 145, 94);
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 35vh;
+    left: 3vw;
+}
+.boxA{
+    color: brown;
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 40vh;
+    left: 3vw;
+}
+.boxB1{
+    color: azure;
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 30vh;
+    left: 3vw;
+}
+.boxB2{
+    color: rgb(12, 145, 94);
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 35vh;
+    left: 3vw;
+}
+.boxB{
+    color: brown;
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 40vh;
+    left: 3vw;
+}
+.boxC1{
+    color: azure;
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 30vh;
+    left: 3vw;
+}
+.boxC2{
+    color: rgb(12, 145, 94);
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 35vh;
+    left: 3vw;
+}
+.boxC{
+    color: brown;
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 40vh;
+    left: 3vw;
+}
+.about{
+    color: rgba(165, 42, 42, 0.733);
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 200vh;
+    left: 9vw;
+}
+.A2{
+    display: inline-block;
+    width: 70vw;
+    height: auto;
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 211vh;
+    left: 9vw;
+}
+.client{
+    color: rgba(165, 42, 42, 0.733);
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 293vh;
+    left: 9vw;
+}
+.A4{
+    display: flex;
+    border-radius: 50%;
+    border: 2px solid red;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 315vh;
+    left: 20vw;
+}
+.B1{
+    color: rgba(0, 0, 255, 0.336);
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 317vh;
+    left: 29vw;
+}
+.A5{
+    color: rgb(180, 155, 9);
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 331vh;
+    left: 9vw;
+}
+.A6{
+    display: flex;
+    border-radius: 10px 10px 10px 0px;
+    border: 2px solid red;
+    height: 200px;
+    width: 350px;
+    position: absolute;
+    top: 315vh;
+    left: 60vw;
+}
+.A7{
+    display: flex;
+    border-radius: 50%;
+    border: 2px solid green;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 360vh;
+    left: 61vw;
+}
+.B2{
+    color: rgba(0, 0, 255, 0.336);
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 362vh;
+    left: 70vw;
+}
+.A8{
+    color: rgb(180, 155, 9);
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 376vh;
+    left: 50vw;
+}
+.A9{
+    display: flex;
+    border-radius: 10px 10px 0px 10px;
+    border: 2px solid green;
+    height: 200px;
+    width: 350px;
+    position: absolute;
+    top: 362vh;
+    left: 10vw;
+}
+.gallery{
+    color: rgba(165, 42, 42, 0.733);
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 415vh;
+    left: 9vw;
+}
+.C2{
+    border: 2px solid orangered;
+    border-radius: 10px;   
+    height: 40vh;
+    width: 30vw;
+    position: absolute;
+    top: 435vh;
+    left: 19vw;
+}
+.C3{
+    border: 2px solid orangered;
+    border-radius: 10px;   
+    height: 40vh;
+    width: 30vw;
+    position: absolute;
+    top: 435vh;
+    left: 51vw;
+}
+.C4{
+    border: 2px solid orangered; 
+    border-radius: 10px;  
+    height: 40vh;
+    width: 30vw;
+    position: absolute;
+    top: 479vh;
+    left: 19vw;
+}
+.C5{
+    border: 2px solid orangered;
+    border-radius: 10px;   
+    height: 40vh;
+    width: 30vw;
+    position: absolute;
+    top: 479vh;
+    left: 51vw;
+}
+.C6{
+    border: 2px solid orangered; 
+    border-radius: 10px;  
+    height: 40vh;
+    width: 30vw;
+    position: absolute;
+    top: 523vh;
+    left: 19vw;
+}
+.C7{
+    border: 2px solid orangered;
+    border-radius: 10px;   
+    height: 40vh;
+    width: 30vw;
+    position: absolute;
+    top: 523vh;
+    left: 51vw;
+}
+
+
+
+
+.contact{
+    color: rgba(165, 42, 42, 0.733);
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 615vh;
+    left: 9vw;
+}
+.D2{
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    top: 640vh;
+    left: 11vw;
+}
+.d3{
+    color: rgb(180, 155, 9);
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 655vh;
+    left: 9vw;
+}
+.D4{
+    color: green;
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 660vh;
+    left: 9vw;
+}
+.D5{
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    top: 640vh;
+    left: 46vw;
+}
+.D6{
+    color: rgb(180, 155, 9);
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 655vh;
+    left: 45vw;
+}
+.D7{
+    color: green;
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 660vh;
+    left: 45vw;
+}
+.D8{
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    top: 640vh;
+    left: 78vw;
+}
+.D9{
+    color: rgb(180, 155, 9);
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 655vh;
+    left: 79vw;
+}
+.D10{
+    color: green;
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 660vh;
+    left: 79vw;
+}
+.D11{
+    background-color: rgba(7, 63, 100, 0.199);
+    border-radius: 17px;
+    height: 80vh;
+    width: 30vw;
+    position: absolute;
+    top: 700vh;
+    left:68vw;
+}
+iframe{
+    border: 2px solid red;
+    height: 100vh;
+    width: 60vw;
+    position: absolute;
+    top: 695vh;
+    left: 5vw;
+}
+.D12{
+    color: rgb(223, 35, 35);
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 5vh;
+    left: 2vw;
+} 
+.D13{
+    color: whitesmoke;
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 11vh;
+    left: 4vw;
+} 
+.D14{
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid green;
+    height: 5vh;
+    width: 12vw;
+    position: absolute;
+    top: 21vh;
+    left:2vw;
+}
+.D15{
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid green;
+    height: 5vh;
+    width: 12vw;
+    position: absolute;
+    top: 21vh;
+    left:16vw;
+}
+.D16{
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid green;
+    height: 5vh;
+    width: 20vw;
+    position: absolute;
+    top: 30vh;
+    left:2vw;
+}
+.D17{
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid green;
+    height: 5vh;
+    width: 20vw;
+    position: absolute;
+    top: 39vh;
+    left:2vw;
+} 
+.D18{
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid green;
+    height: 17vh;
+    width: 26vw;
+    position: absolute;
+    top: 48vh;
+    left:2vw;
+}   
+button{
+    background-color: rgba(165, 42, 42, 0.493);
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    position: absolute;
+    top: 68vh;
+    left: 8vw;
+}  
+button:hover{
+    color: brown;
+    font: bold;
+    border: 2px solid white;
+}
+
+@media screen and (max-width: 500px){
+
+    .container{
+        background-color: rgba(189, 183, 183, 0.363);
+        height: 1220vh;
+        width: 100vw;
+    }
+    .hamburger{
+        display: block;
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
+        /* position: fixed; */
+        left: -100%;
+        top: 110px;
+        gap: 0;
+        flex-direction: column;
+        background-color: black;
+        width: 100%;
+        text-align: center;
+        transition: 2s;
+        z-index: 1000px;
+        /* position: sticky; */
+    }
+    .nav-item{
+        margin: 16px 0;
+    }
+    .nav-menu.active{
+        left: 0;
+    }
+    .nav-branding{
+        position: absolute;
+        top: 42px;
+        left: 85px;
+        font-size: 120%;
+    }
+    .navbar{
+        min-height: 110px;
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+    }
+
+    .nav-link{
+        transition: 0.7s ease;
+    }
+    .logo{
+        height: 50px;
+        width: 50px;
+        border-radius: 10px;
+        position: absolute;
+        top: 35px;
+        left: 19px;
+    }
+
+
+    .p0{
+        color: rgba(0, 0, 0, 0.616);
+        font-family: 'Cairo', sans-serif;
+        font-size: 100%;
+        position: absolute;
+        top: 17vh;
+        left: 4vw;
+        z-index: 4px;
+    }
+
+    .p1{
+        height: auto;
+        width: 80vw;
+        display: inline-block;
+        font-family: 'Cairo', sans-serif;
+        font-size: 100%;
+        position: absolute;
+        top: 35vh;
+        left: 4vw;
+        z-index: 4px;
+        /* justify-content: center; */
+    }
+    #slideshow {
+        overflow: hidden;
+        height: 280px;
+        width: 300px;
+        margin: 0;
+        position: absolute;
+        top: 95vh;
+        left: 7vw;
+      }
+    .photo2{
+        height: 280px;
+        width: 300px;
+    }   
+      .box1{
+        background-color: rgba(63, 63, 153, 0.151);
+        height: auto;
+        width: 80vw;
+        position: absolute;
+        top: 150vh;
+        left: 9vw;
+        border-radius: 10px;
+    }   
+    .box2{
+        background-color: rgba(63, 63, 153, 0.151);
+        height: auto;
+        width: 80vw;
+        position: absolute;
+        top: 200vh;
+        left: 9vw;
+        border-radius: 10px;
+    }   
+    .box3{
+        background-color: rgba(63, 63, 153, 0.151);
+        height: auto;
+        width: 80vw;
+        position: absolute;
+        top: 250vh;
+        left: 9vw;
+        border-radius: 10px;
+    } 
+    .boxA1{
+        color: azure;
+        font-family: 'Cairo', sans-serif;
+        position: absolute;
+        top: 30vh;
+        left: 1vw;
+    }
+    .boxA2{
+        color: rgb(12, 145, 94);
+        font-family: 'Cairo', sans-serif;
+        position: absolute;
+        top: 35vh;
+        left: 1vw;
+    }
+    .boxA{
+        color: brown;
+        height: auto;
+        width: 72vw;
+        font-family: 'Cairo', sans-serif;
+        position: absolute;
+        top: 40vh;
+        left: 1vw;
+    }
+    .boxB1{
+        color: azure;
+        font-family: 'Cairo', sans-serif;
+        position: absolute;
+        top: 30vh;
+        left: 1vw;
+    }
+    .boxB2{
+        color: rgb(12, 145, 94);
+        font-family: 'Cairo', sans-serif;
+        position: absolute;
+        top: 35vh;
+        left: 1vw;
+    }
+    .boxB{
+        color: brown;
+        height: auto;
+        width: 72vw;
+        font-family: 'Cairo', sans-serif;
+        position: absolute;
+        top: 40vh;
+        left: 1vw;
+    }
+    .boxC1{
+        color: azure;
+        font-family: 'Cairo', sans-serif;
+        position: absolute;
+        top: 30vh;
+        left: 1vw;
+    }
+    .boxC2{
+        color: rgb(12, 145, 94);
+        font-family: 'Cairo', sans-serif;
+        position: absolute;
+        top: 35vh;
+        left: 1vw;
+    }
+    .boxC{
+        color: brown;
+        height: auto;
+        width: 72vw;
+        font-family: 'Cairo', sans-serif;
+        position: absolute;
+        top: 40vh;
+        left: 1vw;
+    }   
+    .about{
+        color: rgba(165, 42, 42, 0.733);
+        height: auto;
+        width: 72vw;
+        font-family: 'Cairo', sans-serif;
+        position: absolute;
+        top: 310vh;
+        left: 6vw;
+    }
+    .A2{
+        height: auto;
+        width: 80vw;
+        display: inline-block;
+        font-family: 'Cairo', sans-serif;
+        position: absolute;
+        top: 321vh;
+        left: 5vw;
+    }
+    .client{
+        color: rgba(165, 42, 42, 0.733);
+        font-family: 'Cairo', sans-serif;
+        position: absolute;
+        top: 496vh;
+        left: 6vw;
+    }
+    .A4{
+        display: flex;
+        border-radius: 50%;
+        border: 2px solid red;
+        height: 80px;
+        width: 80px;
+        position: absolute;
+        top: 509vh;
+        left: 9vw;
+    }
+    .B1{
+        color: rgba(0, 0, 255, 0.336);
+        font-family: 'Cairo', sans-serif;
+        position: absolute;
+        top: 511vh;
+        left: 35vw;
+    }
+    .A5{
+        color: rgb(180, 155, 9);
+        font-family: 'Cairo', sans-serif;
+        height: auto;
+        width: 72vw;
+        position: absolute;
+        top: 523vh;
+        left: 5vw;
+        display: flex;
+    }
+    .A6{
+        display: flex;
+        border-radius: 10px 10px 10px 0px;
+        border: 2px solid red;
+        height: 200px;
+        width: 325px;
+        position: absolute;
+        top: 550vh;
+        left: 4vw;
+    }
+    .A7{
+        display: flex;
+        border-radius: 50%;
+        border: 2px solid green;
+        height: 80px;
+        width: 80px;
+        position: absolute;
+        top: 597vh;
+        left: 9vw;
+    }
+    .B2{
+        color: rgba(0, 0, 255, 0.336);
+        font-family: 'Cairo', sans-serif;
+        position: absolute;
+        top: 599vh;
+        left: 35vw;
+    }
+    .A8{
+        color: rgb(180, 155, 9);
+        font-family: 'Cairo', sans-serif;
+        height: auto;
+        width: 72vw;
+        position: absolute;
+        top: 613vh;
+        left: 9vw;
+        display: flex;
+    }
+    .A9{
+        display: flex;
+        border-radius: 10px 10px 0px 10px;
+        border: 2px solid green;
+        height: 200px;
+        width: 325px;
+        position: absolute;
+        top: 636vh;
+        left: 4vw;
+    }
+    .gallery{
+        color: rgba(165, 42, 42, 0.733);
+        font-family: 'Cairo', sans-serif;
+        position: absolute;
+        top: 690vh;
+        left: 9vw;
+    }
+    .C2{
+        border: 2px solid orangered;
+        border-radius: 10px;   
+        height: 200px;
+        width: 325px;
+        position: absolute;
+        top: 705vh;
+        left: 4vw;
+    }
+    .C3{
+        border: 2px solid orangered;
+        border-radius: 10px;   
+        height: 200px;
+        width: 325px;
+        position: absolute;
+        top: 740vh;
+        left: 4vw;
+    }
+    .C4{
+        border: 2px solid orangered; 
+        border-radius: 10px;  
+        height: 200px;
+        width: 325px;
+        position: absolute;
+        top: 775vh;
+        left: 4vw;
+    }
+    .C5{
+        border: 2px solid orangered;
+        border-radius: 10px;   
+        height: 200px;
+        width: 325px;
+        position: absolute;
+        top: 810vh;
+        left: 4vw;
+    }
+    .C6{
+        border: 2px solid orangered; 
+        border-radius: 10px;  
+        height: 200px;
+        width: 325px;
+        position: absolute;
+        top: 845vh;
+        left: 4vw;
+    }
+    .C7{
+        border: 2px solid orangered;
+        border-radius: 10px;   
+        height: 200px;
+        width: 325px;
+        position: absolute;
+        top: 880vh;
+        left: 4vw;
+    }
+    
+
+
+    .contact{
+        color: rgba(165, 42, 42, 0.733);
+        font-family: 'Cairo', sans-serif;
+        position: absolute;
+        top: 930vh;
+        left: 9vw;
+    }
+    .D2{
+        height: 90px;
+        width: 90px;
+        position: absolute;
+        top: 949vh;
+        left: 0.5vw;
+    }
+    .d3{
+        color: rgb(180, 155, 9);
+        font-family: 'Cairo', sans-serif;
+        position: absolute;
+        top: 947vh;
+        left: 25vw;
+    }
+    .D4{
+        color: green;
+        font-family: 'Cairo', sans-serif;
+        position: absolute;
+        top: 952vh;
+        left: 25vw;
+    }
+    .D5{
+        height: 90px;
+        width: 90px;
+        position: absolute;
+        top: 977vh;
+        left: 0.5vw;
+    }
+    .D6{
+        color: rgb(180, 155, 9);
+        font-family: 'Cairo', sans-serif;
+        position: absolute;
+        top: 976vh;
+        left: 25vw;
+    }
+    .D7{
+        color: green;
+        font-family: 'Cairo', sans-serif;
+        position: absolute;
+        top: 981vh;
+        left: 25vw;
+    }
+    .D8{
+        height: 90px;
+        width: 90px;
+        position: absolute;
+        top: 1002vh;
+        left: 0.5vw;
+    }
+    .D9{
+        color: rgb(180, 155, 9);
+        font-family: 'Cairo', sans-serif;
+        position: absolute;
+        top: 1001vh;
+        left: 25vw;
+    }
+    .D10{
+        color: green;
+        font-family: 'Cairo', sans-serif;
+        position: absolute;
+        top: 1006vh;
+        left: 25vw;
+    }
+    .D11{
+        background-color: rgba(112, 26, 197, 0.822);
+        border-radius: 17px;
+        height: 83vh;
+        width: 97vw;
+        position: absolute;
+        top: 1040vh;
+        left:1.5vw;
+    }
+    iframe{
+        border: 2px solid red;
+        height: 50vh;
+        width: 94vw;
+        position: absolute;
+        top: 1135vh;
+        left: 2vw;
+    }
+    .D12{
+        color: rgb(223, 35, 35);
+        font-family: 'Cairo', sans-serif;
+        font-size: 15px;
+        position: absolute;
+        top: 5vh;
+        left: 2vw;
+    } 
+    .D13{
+        color: whitesmoke;
+        font-family: 'Cairo', sans-serif;
+        position: absolute;
+        top: 11vh;
+        left: 5vw;
+    } 
+    .D14{
+        margin: 2px;
+        padding: 2px;
+        border: 1px solid green;
+        height: 5vh;
+        width: 42vw;
+        position: absolute;
+        top: 21vh;
+        left:3vw;
+    }
+    .D15{
+        margin: 2px;
+        padding: 2px;
+        border: 1px solid green;
+        height: 5vh;
+        width: 43vw;
+        position: absolute;
+        top: 21vh;
+        left:49vw;
+    }
+    .D16{
+        margin: 2px;
+        padding: 2px;
+        border: 1px solid green;
+        height: 5vh;
+        width: 65vw;
+        position: absolute;
+        top: 30vh;
+        left:3vw;
+    }
+    .D17{
+        margin: 2px;
+        padding: 2px;
+        border: 1px solid green;
+        height: 5vh;
+        width: 65vw;
+        position: absolute;
+        top: 39vh;
+        left:3vw;
+    } 
+    .D18{
+        margin: 2px;
+        padding: 2px;
+        border: 1px solid green;
+        height: 17vh;
+        width: 89vw;
+        position: absolute;
+        top: 48vh;
+        left:3vw;
+    }   
+    button{
+        background-color: rgba(165, 42, 42, 0.493);
+        border-radius: 10px;
+        height: 50px;
+        width: 200px;
+        cursor: pointer;
+        position: absolute;
+        top: 71vh;
+        left: 20vw;
+    }  
+    button:hover{
+        color: brown;
+        font: bold;
+        border: 2px solid white;
+    }
+    footer{
+        background-color: rgba(20, 20, 212, 0.384);
+        height: 20vh;
+        width: 100vw;
+        position: absolute;
+        top: 1200vh;
+    }
+    .G1{
+        font-family: 'Cairo', sans-serif;
+        color: white;
+        height: auto;
+        width: 90vw;
+        /* text-align: center;
+        justify-content: center; */
+        position: absolute;
+        top: 2vh;
+        left: 6vw;
+    }
+    .G2{
+        font-family: 'Cairo', sans-serif;
+        color: white;
+        /* text-align: center;
+        justify-content: center; */
+        position: absolute;
+        top: 12vh;
+        left: 33vw;
+    }
+    .photo4{
+        /* display: flex; */
+        border-radius: 10px;
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        top: 12.25vh;
+        left: 60vw;
+    }
+    .photo1{
+        /* display: flex; */
+        border-radius: 2vh;
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        top: 2vh;
+        left: 7vw;
+    }
+    .profile1{
+        color: azure;
+        font-family: 'Cairo', sans-serif;
+        position: absolute;
+        top: 3vh;
+        left: 15vw;
+    }
+    
+}
