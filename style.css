@@ -11,7 +11,7 @@ html{
     width: 100vw;
 }
 header{
-    background-color: rgba(20, 20, 212, 0.384);
+    background-color: rgba(20, 20, 212, 0.685);
     width: 100vw;
 }
 li{
@@ -139,7 +139,7 @@ a{
 
 
 footer{
-    background-color: rgba(20, 20, 212, 0.384);
+    background-color: rgba(20, 20, 212, 0.685);
     height: 10vh;
     width: 100vw;
     position: absolute;
@@ -777,14 +777,14 @@ button:hover{
         font-family: 'Cairo', sans-serif;
         font-size: 100%;
         position: absolute;
-        top: 17vh;
+        top: 18vh;
         left: 4vw;
         z-index: 4px;
     }
 
     .p1{
         height: auto;
-        width: 80vw;
+        width: 95vw;
         display: inline-block;
         font-family: 'Cairo', sans-serif;
         font-size: 100%;
@@ -914,7 +914,7 @@ button:hover{
     }
     .A2{
         height: auto;
-        width: 80vw;
+        width: 95vw;
         display: inline-block;
         font-family: 'Cairo', sans-serif;
         position: absolute;
