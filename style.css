@@ -11,7 +11,7 @@ html{
     width: 100vw;
 }
 header{
-    background-color: rgba(20, 20, 212, 0.685);
+    background-color: rgba(20, 212, 132, 0.397);
     width: 100vw;
 }
 li{
@@ -57,6 +57,10 @@ a{
     position: absolute;
     top: 19px;
     left: 19px;
+}
+.logo::hover{
+    cursor: pointer;
+    transform: scale(2);
 }
 
 .hamburger{
@@ -148,7 +152,7 @@ a{
 
 
 footer{
-    background-color: rgba(20, 20, 212, 0.685);
+    background-color: rgba(20, 212, 132, 0.397);
     height: 10vh;
     width: 100vw;
     position: absolute;
@@ -621,7 +625,7 @@ footer{
     left: 79vw;
 }
 .D11{
-    background-color: rgba(7, 63, 100, 0.199);
+    background-color: rgba(132, 198, 241, 0.199);
     border-radius: 17px;
     height: 80vh;
     width: 30vw;
@@ -638,7 +642,7 @@ iframe{
     left: 5vw;
 }
 .D12{
-    color: rgb(223, 35, 35);
+    color: rgba(223, 35, 35, 0.589);
     font-family: 'Cairo', sans-serif;
     position: absolute;
     top: 5vh;
@@ -702,7 +706,7 @@ iframe{
     left:2vw;
 }   
 button{
-    background-color: rgba(165, 42, 42, 0.493);
+    background-color: rgba(218, 176, 38, 0.548);
     border-radius: 10px;
     height: 50px;
     width: 200px;
@@ -714,7 +718,7 @@ button{
 button:hover{
     color: brown;
     font: bold;
-    border: 2px solid white;
+    border: 2px solid whitesmoke;
 }
 
 @media screen and (max-width: 500px){
@@ -1159,7 +1163,7 @@ button:hover{
         left: 25vw;
     }
     .D11{
-        background-color: rgba(112, 26, 197, 0.822);
+        background-color: rgba(132, 198, 241, 0.199);
         border-radius: 17px;
         height: 83vh;
         width: 97vw;
@@ -1256,7 +1260,7 @@ button:hover{
         border: 2px solid white;
     }
     footer{
-        background-color: rgba(20, 20, 212, 0.384);
+        background-color: rgba(20, 212, 132, 0.397);
         height: 20vh;
         width: 100vw;
         position: absolute;
