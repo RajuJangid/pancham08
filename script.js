@@ -16,3 +16,7 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
     raju.classList.remove("active");
     jangid.classList.remove("active");
 }))
+
+function placeOrder(){
+    alert("Your message has been mailed");
+}
