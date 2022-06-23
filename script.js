@@ -20,3 +20,16 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
 function placeOrder(){
     alert("Your message has been mailed");
 }
+
+let placeOrder = document.getElementById('placeOrder');
+
+placeOrder.addEventListener('click', function handleClick(event) {
+  event.preventDefault();
+
+  let inputs = document.querySelectorAll('.D14, .D15, .D16, .D17, .D18');
+
+  inputs.forEach(input => {
+    input.value = '';
+  });
+});
+
