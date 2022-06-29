@@ -17,19 +17,11 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
     jangid.classList.remove("active");
 }))
 
-function placeOrder(){
-    alert("Your message has been mailed");
+function placeOrder() {
+    alert("Your message has been mailed.");
+    document.getElementById("F1").value = "";
+    document.getElementById("F2").value = "";
+    document.getElementById("F3").value = "";
+    document.getElementById("F4").value = "";
+    document.getElementById("F5").value = "";
 }
-
-let placeOrder = document.getElementById('placeOrder');
-
-placeOrder.addEventListener('click', function handleClick(event) {
-  event.preventDefault();
-
-  let inputs = document.querySelectorAll('.D14, .D15, .D16, .D17, .D18');
-
-  inputs.forEach(input => {
-    input.value = '';
-  });
-});
-
